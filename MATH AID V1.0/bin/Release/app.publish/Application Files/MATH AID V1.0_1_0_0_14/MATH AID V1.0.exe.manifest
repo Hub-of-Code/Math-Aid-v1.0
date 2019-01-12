@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="MATH AID V1.0.exe" version="1.0.0.14" publicKeyToken="3e97b9c7dd87585d" language="neutral" processorArchitecture="x86" type="win32" />
+  <description asmv2:iconFile="MA.ico" xmlns="urn:schemas-microsoft-com:asm.v1" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="MATH AID V1.0" version="1.0.0.0" language="neutral" processorArchitecture="x86" />
+    <commandLine file="MATH AID V1.0.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC Manifest Options
+          If you want to change the Windows User Account Control level replace the 
+          requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         If you want to utilize File and Registry Virtualization for backward 
+         compatibility then delete the requestedExecutionLevel node.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="MATH AID V1.0.exe" size="643584">
+      <assemblyIdentity name="MATH AID V1.0" version="1.0.0.0" language="neutral" processorArchitecture="x86" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+        <dsig:DigestValue>HTG33DMcqOfi6R55e15wL/Xt/bA=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="MA.ico" size="9054">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>267Qne6AW+3QmJxKATFRAftoi40=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=EDIYE\EDIYE OTTOHO" issuerKeyHash="bcc75dea5b5a90c951f556bd778dd7b3ee2cfda2" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>7hjt41WgubRSyhVlVaO17Xeqa9E=</DigestValue></Reference></SignedInfo><SignatureValue>PpKJxZX6BPjC9dgom4JBc3Pog5j8mvrG7Vzc4aqnqUWK/rX+aAHn4DbW1sn5hkVfUn/JGTEd4WEtGshCoZVxMqrFqlkOFr3FlB4eBuB2MP0ZUKBM1RWbuZMrZQ+HShVfnibhVsqntb11XJZbzDunbQmTKI8d6Vgyv4/Rgc1ikE0=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>1ZxQHaft+LhA/TFPdo/4bTYzI+AYd2+S885cPDW/+/qPFCtB01Wk6+FTeBY1xT2NekQekXxKsTypN1Fs8IG/BT+DWs3xod9h/hSX/jekilTZInDelbI3O8rKosprApUSgCAnWkFcejGE4/jKVRg6bR9tJIRpX/Cta50Jbbro1Ws=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="d16baa77edb5a3556515ca52b4b9a055e3ed18ee" Description="" Url=""><as:assemblyIdentity name="MATH AID V1.0.exe" version="1.0.0.14" publicKeyToken="3e97b9c7dd87585d" language="neutral" processorArchitecture="x86" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=EDIYE\EDIYE OTTOHO</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>sIEd9X5MnvZtgetkh5bjQV77Teg=</DigestValue></Reference></SignedInfo><SignatureValue>s8F/h6Ql+kYzOZnJncLfBUEYomUAvYx3dUYt7f1tP3FkbcqP2UTpCRF7wp2WAfkHm7eiYHPlCtqews1BKJ1iXlBGjFJ8IZOG4/+JfySVvMRH6UZPJiA2hyD3tgy818fRdqSMV8IfJVhovBDeX0WaPnU3aFMatVLDWWgPPbQzVOo=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>1ZxQHaft+LhA/TFPdo/4bTYzI+AYd2+S885cPDW/+/qPFCtB01Wk6+FTeBY1xT2NekQekXxKsTypN1Fs8IG/BT+DWs3xod9h/hSX/jekilTZInDelbI3O8rKosprApUSgCAnWkFcejGE4/jKVRg6bR9tJIRpX/Cta50Jbbro1Ws=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB4TCCAUqgAwIBAgIQQZGW5P9rur1LLLxsGgXHHzANBgkqhkiG9w0BAQUFADAvMS0wKwYDVQQDHiQARQBEAEkAWQBFAFwARQBEAEkAWQBFACAATwBUAFQATwBIAE8wHhcNMTcwNzMwMjE1NjI1WhcNMTgwNzMxMDM1NjI1WjAvMS0wKwYDVQQDHiQARQBEAEkAWQBFAFwARQBEAEkAWQBFACAATwBUAFQATwBIAE8wgZ8wDQYJKoZIhvcNAQEBBQADgY0AMIGJAoGBANWcUB2n7fi4QP0xT3aP+G02MyPgGHdvkvPOXDw1v/v6jxQrQdNVpOvhU3gWNcU9jXpEHpF8SrE8qTdRbPCBvwU/g1rN8aHfYf4Ul/43pIpU2SJw3pWyNzvKyqLKawKVEoAgJ1pBXHoxhOP4ylUYOm0fbSSEaV/wrWudCW266NVrAgMBAAEwDQYJKoZIhvcNAQEFBQADgYEALe98fWh+p5BEc0/iNkhIjpEi1rlLPyX7QZJcM9JtPeJ1eJxXHPRYAuszvx8wHmtszmGOP8UtwKE+vjm8MlMx0baYK41cz26ulB776tPmQShjqsGAWF+NF/jVWPknCGraqhM4rbRB/qmfRcn719bZ6FoQc8o+4Q0RLZdArMtM2tA=</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
